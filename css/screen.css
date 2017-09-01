@@ -1,0 +1,188 @@
+/* TWO COLUMN LAYOUT */
+
+body {
+	text-align: center; /* IE6 needs this to center the layout in the browser window */
+	background-color: #cfdee5;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+		}
+#main_wrapper {
+	max-width:1000px; /* sets max layout width */
+	min-width:900px; /* sets min layout width */
+	margin-left:auto;  /* centers layout in browser */
+	margin-right:auto; /* centers layout in browser */
+	text-align:left; /* resets the centering hack for IE6 on the body tag */
+	/*background-color: #f8f6f5;*/
+	background-color: #FFF;
+	}
+#header {
+	width: 300px;
+
+	}
+#nav {
+	width:300px; /* the content margin must match this value */
+	float:left; /* floats on nav and content divs make them sit side by side */
+	}
+#content {
+	margin-left:300px; /* margin = width of nav column */
+	}
+#footer {
+	clear:both; /* makes the footer sit below whichever column is longest */
+	background-color:#CFDEE5;
+	}
+#header_inner, #nav_inner, #content_inner, #promo_inner {
+	overflow:hidden; /* clips oversize elements that would otherwise expand divs and break the layout */
+	}
+#header_inner {
+	padding:1em 2em; /* creates space between the box and the content */
+	text-align: right;
+	
+	}
+#nav_inner {
+	padding:1em 2em; /* creates space between the box and the content */
+	text-align:right;
+	}
+#content_inner { 
+	 /* creates space between the box and the content */
+	padding:1em 1em 1em 1.5em; 
+	}
+.content_text {
+	width: 383px;}	
+
+#content_top {
+	float: left;	
+	width:500px;}
+
+#content_middle {
+	float: left;	
+	width:500px;}
+
+#content_bottom {
+	float: left;	
+	width:500px;}	
+	
+.content_image {
+	width: 260px;
+	float: left;}	
+
+.content_title {
+	width: 230px;
+	float: left;
+}	
+#footer_inner {
+	padding:.5em 1em; /* creates space between the box and the content */
+	text-align:center;
+	}
+	
+h1  {
+	font-size: 140%;
+	text-align: right;	/* logotype */
+	}
+h2  {
+	font-size: 110%;
+	text-align: right;	/* navigation font */
+	line-height: normal;
+	font-weight: bold;
+	}
+h3  {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 100%;
+	font-style: italic;
+	text-align: right;	/* navigation bar work names */
+	line-height: 1px;
+	font-weight: lighter;
+	color: #333;
+	}
+h4  {
+	font-size: 100%;
+	font-style: normal;	/* work names */
+	}
+h5  {
+	font-style: italic;
+	font-size: 95%;	/* copyright and footer */
+	line-height: 120%;
+	font-weight: normal;
+	}
+h6  {
+	font-size: 75%;
+	font-style: italic;
+	text-align: center;	/* work names */
+	line-height: 110%;
+	font-weight: normal;
+	color: #000;
+	}
+
+ul {
+	list-style-type: none;
+	text-decoration: none;
+	text-align:left;
+}
+li {
+	font-weight:bold;
+	text-align:left;
+	
+}
+
+p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 95%;
+}
+
+.title { font-weight:normal;
+		font-style:italic;
+}
+
+.medium { font-weight:normal;
+		
+}
+
+img {
+	padding: .25em;
+	border-style: none;
+}
+	
+.content_text li{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 85%;
+	font-weight: normal;
+	margin-bottom: 16px;
+	list-style-type: none;
+	text-align:left;
+	}	
+
+
+#nav_inner ul 		{
+	list-style-type: none;
+	text-decoration: none;
+}
+
+#nav_inner ul li 	{
+	font-size: 110%;
+	text-align: right;	
+	line-height: 160%;
+	font-weight: bold;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+#nav_inner ul li ul 	{
+	margin-top: 8px;
+	margin-right: 8px;
+	margin-bottom: 8px;
+	list-style-type: none;
+}
+
+#nav_inner ul li ul li	{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 95%;
+	font-style: italic;
+	text-align: right;	
+	line-height: 150%;
+	font-weight: lighter;
+	color: #0F3;
+	list-style-type: none;
+}
+a { 
+	text-decoration: none;
+	color: #000000;
+}
